@@ -1,42 +1,119 @@
-# Welcome to your Lovable project
+# 💍 Digital Wedding Invitation
 
-This project was built with [Lovable](https://lovable.dev).
+A beautiful and interactive **Digital Wedding Invitation Website** designed with a traditional Indian wedding theme. The website brings all important wedding details together in one elegant and memorable digital experience. ❤️
 
-## Build with Lovable
+## ✨ Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+* 🪔 Traditional Indian Wedding Theme
+* 💑 Bride & Groom Information
+* 📅 Wedding Events & Functions
+* 📍 Wedding Venue & Location Details
+* 📱 Location QR Code
+* 🎵 Background Wedding Music
+* 🖼️ Wedding Photos & Memories
+* 📱 Fully Responsive Design
+* ❤️ Clean and User-Friendly Interface
+* 🌸 Hindi Wedding Content & Traditional Elements
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 📅 Wedding Events
 
-## Development
+The website provides complete information about the different wedding ceremonies, including their dates, timings, and venues.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 📍 Venue & Location
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+Guests can easily find the wedding venue using the integrated location details and QR code.
+
+## 🎵 Wedding Music
+
+Background wedding music has been added to create a beautiful and traditional wedding atmosphere.
+
+## 🛠️ Technologies Used
+
+* React
+* JavaScript
+* HTML
+* CSS
+* Vite
+
+## 📂 Project Structure
+
+```text
+wedding-website/
+├── public/
+│   ├── images/
+│   └── music/
+├── src/
+├── package.json
+├── vite.config.ts
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd wedding-website
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
 npm run dev
 ```
 
-## Built with
+Open the local URL shown in your terminal to view the website.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## 🏗️ Production Build
 
-## Wedding invitation placeholders
+Create a production build:
 
-- Replace the illustrative gallery images in `src/assets/` and update the `gallery` array in `src/routes/index.tsx` with real, consented photos.
-- Replace the sample audio at `public/music/wedding.mp3` with your own licensed wedding music; keep the filename or update the audio source in `src/routes/index.tsx`.
-- Update the exact venue and address in the venue section once confirmed. The current map link points only to Shrimadhopur.
-- Wedding Blessings is a preview-only interaction. Blessings are not delivered or saved; connect a backend before sharing the site as a live wishes collection tool.
-- The venue QR code lives at public/images/location-qr.png, copied unmodified. Set VENUE_MAP_URL in src/routes/index.tsx to change where Get Directions points.
+```bash
+npm run build
+```
 
-## Venue QR code
+Preview the production build locally:
 
-- The uploaded venue QR image goes at `public/images/location-qr.png`, copied unmodified (no cropping, resizing or recoloring) — it then appears automatically in the Venue section. Until then a "QR code coming soon" placeholder shows.
-- Set `VENUE_MAP_URL` near the top of `src/routes/index.tsx` to the real Google Maps link (e.g. the QR code destination) to enable the "Get Directions" button; until then it stays disabled.
+```bash
+npm run preview
+```
+
+## 🌐 Deployment
+
+This website can be easily deployed using platforms such as:
+
+* Vercel
+* Netlify
+* GitHub Pages
+
+For Vercel deployment:
+
+1. Push the project to GitHub.
+2. Connect the repository to Vercel.
+3. Select the project.
+4. Click **Deploy**.
+5. Your wedding website will be live! 🎉
+
+## ❤️ Purpose
+
+The purpose of this project is to transform a traditional Indian wedding invitation into a modern **digital wedding experience**, making it easy to share wedding celebrations, events, venue details, and memories with family and friends.
+
+---
+
+## 💍 शुभ विवाह | Happy Wedding 💍
+
+**Your presence, love, and blessings are the most precious gifts for the wedding celebration. ❤️**
+
+⭐ If you like this project, consider giving the repository a **Star**!
